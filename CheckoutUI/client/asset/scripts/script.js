@@ -22,7 +22,7 @@ const deleteProducts = async() => {
 }
 
 const loadProducts = async() => {
-    url = 'https://automaticbilling.herokuapp.com/product';
+    url = 'https://rafa-809015186151.us-central1.run.app';
 
     let res = await axios.get(url);
     responseText = await res.data;
